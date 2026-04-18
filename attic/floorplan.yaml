@@ -1,0 +1,259 @@
+type: picture-elements
+image: /local/floorplan/transparent.png?version=536F9633915DBD10D9D40F26DE21E6FF
+elements:
+  - type: conditional
+    title: binary_sensor.attic_theatre_door_contact closed, Base
+    conditions:
+      - condition: state
+        entity: binary_sensor.attic_theatre_door_contact
+        state_not: 'on'
+    elements:
+      - type: image
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        image: /local/floorplan/binary_sensor.attic_theatre_door_contact-closed/base.png?version=C2CF4CE0D0F01FB05A40E55D676322D6
+        filter: none
+        style:
+          left: 50%
+          top: 50%
+          width: 100%
+  - type: conditional
+    title: binary_sensor.attic_theatre_door_contact closed, light.attic_lamp
+    conditions:
+      - condition: state
+        entity: light.attic_lamp
+        state: 'on'
+      - condition: state
+        entity: binary_sensor.attic_theatre_door_contact
+        state_not: 'on'
+    elements:
+      - type: image
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        image: /local/floorplan/binary_sensor.attic_theatre_door_contact-closed/light.attic_lamp.png?version=42E1ECAD282E4D1A624CE04BF70A0476
+        filter: none
+        style:
+          left: 50%
+          top: 50%
+          width: 100%
+          mix-blend-mode: lighten
+  - type: conditional
+    title: binary_sensor.attic_theatre_door_contact open, Base
+    conditions:
+      - condition: state
+        entity: binary_sensor.attic_theatre_door_contact
+        state: 'on'
+    elements:
+      - type: image
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        image: /local/floorplan/binary_sensor.attic_theatre_door_contact-open/base.png?version=EB40549BCD6928CC93495C21965F4A4A
+        filter: none
+        style:
+          left: 50%
+          top: 50%
+          width: 100%
+  - type: conditional
+    title: binary_sensor.attic_theatre_door_contact open, light.attic_lamp
+    conditions:
+      - condition: state
+        entity: light.attic_lamp
+        state: 'on'
+      - condition: state
+        entity: binary_sensor.attic_theatre_door_contact
+        state: 'on'
+    elements:
+      - type: image
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        image: /local/floorplan/binary_sensor.attic_theatre_door_contact-open/light.attic_lamp.png?version=B6F7A2027DBE48395BBA579A23F409AF
+        filter: none
+        style:
+          left: 50%
+          top: 50%
+          width: 100%
+          mix-blend-mode: lighten
+  - type: state-icon
+    entity: light.attic_lamp
+    title: null
+    style:
+      top: 27.04%
+      left: 46.98%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: toggle
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: binary_sensor.attic_theatre_marty_storage_contact
+    title: null
+    style:
+      top: 17.69%
+      left: 31.48%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: more-info
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: binary_sensor.attic_office_door_contact
+    title: null
+    style:
+      top: 28.19%
+      left: 68.77%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: more-info
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: binary_sensor.attic_office_mique_storage_contact
+    title: null
+    style:
+      top: 19.47%
+      left: 69.61%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: more-info
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: binary_sensor.attic_theatre_luggage_room_contact
+    title: null
+    style:
+      top: 31.67%
+      left: 27.55%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: more-info
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: binary_sensor.attic_theatre_camy_storage_contact
+    title: null
+    style:
+      top: 35.72%
+      left: 30.27%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: more-info
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: binary_sensor.attic_toy_storage_contact
+    title: null
+    style:
+      top: 68.20%
+      left: 49.83%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: more-info
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: binary_sensor.attic_theatre_cd_storage_contact
+    title: null
+    style:
+      top: 31.09%
+      left: 30.57%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: more-info
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: binary_sensor.attic_deck_window_1_contact
+    title: null
+    style:
+      top: 45.81%
+      left: 59.12%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: more-info
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: binary_sensor.attic_office_storage_contact
+    title: null
+    style:
+      top: 31.08%
+      left: 79.47%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: more-info
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: binary_sensor.attic_gym_door_contact
+    title: null
+    style:
+      top: 23.08%
+      left: 52.80%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: more-info
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
