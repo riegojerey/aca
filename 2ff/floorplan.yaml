@@ -18,10 +18,10 @@ elements:
           top: 50%
           width: 100%
   - type: conditional
-    title: switch.pin
+    title: light.garden
     conditions:
       - condition: state
-        entity: switch.pin
+        entity: light.garden
         state: 'on'
     elements:
       - type: image
@@ -29,7 +29,7 @@ elements:
           action: none
         hold_action:
           action: none
-        image: /local/floorplan/switch.pin.png?version=562233D6FEC98D58B696C56C007C5759
+        image: /local/floorplan/light.garden.png?version=7597D7A95FA773FC6BAD335929B8FE1C
         filter: none
         style:
           left: 50%
@@ -37,10 +37,10 @@ elements:
           width: 100%
           mix-blend-mode: lighten
   - type: conditional
-    title: light.her_office_light
+    title: switch.outside_hallway_1
     conditions:
       - condition: state
-        entity: light.her_office_light
+        entity: switch.outside_hallway_1
         state: 'on'
     elements:
       - type: image
@@ -48,7 +48,7 @@ elements:
           action: none
         hold_action:
           action: none
-        image: /local/floorplan/light.her_office_light.png?version=827B7AEE3BE569E2D08774F2C6589605
+        image: /local/floorplan/switch.outside_hallway_1.png?version=9350403508F9A2BCC9433EE42A3E256D
         filter: none
         style:
           left: 50%
@@ -56,10 +56,10 @@ elements:
           width: 100%
           mix-blend-mode: lighten
   - type: conditional
-    title: switch.2f_hallway_outlet_l2
+    title: light.guard_house_light
     conditions:
       - condition: state
-        entity: switch.2f_hallway_outlet_l2
+        entity: light.guard_house_light
         state: 'on'
     elements:
       - type: image
@@ -67,7 +67,7 @@ elements:
           action: none
         hold_action:
           action: none
-        image: /local/floorplan/switch.2f_hallway_outlet_l2.png?version=054F476AA316E97DD41FBD63BBD18BFA
+        image: /local/floorplan/light.guard_house_light.png?version=FDE15AD47A7B92007253A6F2E4B81705
         filter: none
         style:
           left: 50%
@@ -75,10 +75,10 @@ elements:
           width: 100%
           mix-blend-mode: lighten
   - type: conditional
-    title: switch.master_s_bedroom_lamp_left
+    title: light.mango
     conditions:
       - condition: state
-        entity: switch.master_s_bedroom_lamp_left
+        entity: light.mango
         state: 'on'
     elements:
       - type: image
@@ -86,7 +86,7 @@ elements:
           action: none
         hold_action:
           action: none
-        image: /local/floorplan/switch.master_s_bedroom_lamp_left.png?version=14E856632FFCB5BC1C1022D35831448B
+        image: /local/floorplan/light.mango.png?version=26DC4B046F38FF1566BA50C43E669AB8
         filter: none
         style:
           left: 50%
@@ -94,10 +94,10 @@ elements:
           width: 100%
           mix-blend-mode: lighten
   - type: conditional
-    title: light.his_office_light
+    title: light.wall_lamp_garden
     conditions:
       - condition: state
-        entity: light.his_office_light
+        entity: light.wall_lamp_garden
         state: 'on'
     elements:
       - type: image
@@ -105,7 +105,7 @@ elements:
           action: none
         hold_action:
           action: none
-        image: /local/floorplan/light.his_office_light.png?version=B6D31B95E0B398E67E106EECF93D0503
+        image: /local/floorplan/light.wall_lamp_garden.png?version=268517A430416627B20F74C6A8E246FB
         filter: none
         style:
           left: 50%
@@ -113,10 +113,10 @@ elements:
           width: 100%
           mix-blend-mode: lighten
   - type: conditional
-    title: switch.master_s_bedroom_lamp_right_plug
+    title: switch.1f_hallway_outlet_l1
     conditions:
       - condition: state
-        entity: switch.master_s_bedroom_lamp_right_plug
+        entity: switch.1f_hallway_outlet_l1
         state: 'on'
     elements:
       - type: image
@@ -124,7 +124,7 @@ elements:
           action: none
         hold_action:
           action: none
-        image: /local/floorplan/switch.master_s_bedroom_lamp_right_plug.png?version=6F59368311F074EA085D55B2BB083F6C
+        image: /local/floorplan/switch.1f_hallway_outlet_l1.png?version=3CD6D54FF2AD2F6578504B4DD7EF0121
         filter: none
         style:
           left: 50%
@@ -132,10 +132,10 @@ elements:
           width: 100%
           mix-blend-mode: lighten
   - type: conditional
-    title: switch.2f_hallway_2_l2
+    title: light.near_pool
     conditions:
       - condition: state
-        entity: switch.2f_hallway_2_l2
+        entity: light.near_pool
         state: 'on'
     elements:
       - type: image
@@ -143,7 +143,7 @@ elements:
           action: none
         hold_action:
           action: none
-        image: /local/floorplan/switch.2f_hallway_2_l2.png?version=586CFE519CBFE41DC527A34B57FD23AF
+        image: /local/floorplan/light.near_pool.png?version=F7E4BA783E578F104D1A654F4B77C1D3
         filter: none
         style:
           left: 50%
@@ -151,10 +151,10 @@ elements:
           width: 100%
           mix-blend-mode: lighten
   - type: conditional
-    title: switch.2f_family_area_l1
+    title: light.perimeter
     conditions:
       - condition: state
-        entity: switch.2f_family_area_l1
+        entity: light.perimeter
         state: 'on'
     elements:
       - type: image
@@ -162,45 +162,7 @@ elements:
           action: none
         hold_action:
           action: none
-        image: /local/floorplan/switch.2f_family_area_l1.png?version=9169569021168B23C3CCD128F7790B00
-        filter: none
-        style:
-          left: 50%
-          top: 50%
-          width: 100%
-          mix-blend-mode: lighten
-  - type: conditional
-    title: switch.spotlight
-    conditions:
-      - condition: state
-        entity: switch.spotlight
-        state: 'on'
-    elements:
-      - type: image
-        tap_action:
-          action: none
-        hold_action:
-          action: none
-        image: /local/floorplan/switch.spotlight.png?version=4B8FB80CCE62ECCF4EBC514032680C89
-        filter: none
-        style:
-          left: 50%
-          top: 50%
-          width: 100%
-          mix-blend-mode: lighten
-  - type: conditional
-    title: switch.ante_room_outlet_l2
-    conditions:
-      - condition: state
-        entity: switch.ante_room_outlet_l2
-        state: 'on'
-    elements:
-      - type: image
-        tap_action:
-          action: none
-        hold_action:
-          action: none
-        image: /local/floorplan/switch.ante_room_outlet_l2.png?version=2E446874205A3BAD0F56E4E8D707CBBE
+        image: /local/floorplan/light.perimeter.png?version=111C60B73E941871047BEA15BEB4B5EC
         filter: none
         style:
           left: 50%
@@ -208,11 +170,11 @@ elements:
           width: 100%
           mix-blend-mode: lighten
   - type: state-icon
-    entity: switch.pin
+    entity: light.garden
     title: null
     style:
-      top: 62.01%
-      left: 53.38%
+      top: 54.81%
+      left: 83.82%
       border-radius: 50%
       text-align: center
       background-color: rgba(255, 255, 255, 0.3)
@@ -224,171 +186,123 @@ elements:
     hold_action:
       action: more-info
   - type: state-icon
-    entity: light.her_office_light
-    title: null
-    style:
-      top: 43.81%
-      left: 44.03%
-      border-radius: 50%
-      text-align: center
-      background-color: rgba(255, 255, 255, 0.3)
-      opacity: 100%
-    tap_action:
-      action: toggle
-    double_tap_action:
-      action: none
-    hold_action:
-      action: more-info
-  - type: state-icon
-    entity: switch.master_s_bedroom_lamp_left
-    title: null
-    style:
-      top: 57.70%
-      left: 48.42%
-      border-radius: 50%
-      text-align: center
-      background-color: rgba(255, 255, 255, 0.3)
-      opacity: 100%
-    tap_action:
-      action: toggle
-    double_tap_action:
-      action: none
-    hold_action:
-      action: more-info
-  - type: state-icon
-    entity: switch.2f_hallway_2_l2
-    title: null
-    style:
-      top: 22.12%
-      left: 67.10%
-      border-radius: 50%
-      text-align: center
-      background-color: rgba(255, 255, 255, 0.3)
-      opacity: 100%
-    tap_action:
-      action: toggle
-    double_tap_action:
-      action: none
-    hold_action:
-      action: more-info
-  - type: state-icon
-    entity: switch.2f_family_area_l1
-    title: null
-    style:
-      top: 42.67%
-      left: 62.07%
-      border-radius: 50%
-      text-align: center
-      background-color: rgba(255, 255, 255, 0.3)
-      opacity: 100%
-    tap_action:
-      action: toggle
-    double_tap_action:
-      action: none
-    hold_action:
-      action: more-info
-  - type: state-icon
-    entity: switch.spotlight
-    title: null
-    style:
-      top: 58.67%
-      left: 51.49%
-      border-radius: 50%
-      text-align: center
-      background-color: rgba(255, 255, 255, 0.3)
-      opacity: 100%
-    tap_action:
-      action: toggle
-    double_tap_action:
-      action: none
-    hold_action:
-      action: more-info
-  - type: state-icon
-    entity: switch.2f_hallway_outlet_l2
-    title: null
-    style:
-      top: 25.13%
-      left: 42.32%
-      border-radius: 50%
-      text-align: center
-      background-color: rgba(255, 255, 255, 0.3)
-      opacity: 100%
-    tap_action:
-      action: toggle
-    double_tap_action:
-      action: none
-    hold_action:
-      action: more-info
-  - type: state-icon
-    entity: light.his_office_light
-    title: null
-    style:
-      top: 78.03%
-      left: 38.39%
-      border-radius: 50%
-      text-align: center
-      background-color: rgba(255, 255, 255, 0.3)
-      opacity: 100%
-    tap_action:
-      action: toggle
-    double_tap_action:
-      action: none
-    hold_action:
-      action: more-info
-  - type: state-icon
-    entity: switch.master_s_bedroom_lamp_right_plug
-    title: null
-    style:
-      top: 58.59%
-      left: 55.29%
-      border-radius: 50%
-      text-align: center
-      background-color: rgba(255, 255, 255, 0.3)
-      opacity: 100%
-    tap_action:
-      action: toggle
-    double_tap_action:
-      action: none
-    hold_action:
-      action: more-info
-  - type: state-icon
-    entity: switch.ante_room_outlet_l2
-    title: null
-    style:
-      top: 54.16%
-      left: 56.28%
-      border-radius: 50%
-      text-align: center
-      background-color: rgba(255, 255, 255, 0.3)
-      opacity: 100%
-    tap_action:
-      action: toggle
-    double_tap_action:
-      action: none
-    hold_action:
-      action: more-info
-  - type: state-icon
-    entity: binary_sensor.camy_windows
-    title: null
-    style:
-      top: 20.78%
-      left: 39.53%
-      border-radius: 50%
-      text-align: center
-      background-color: rgba(255, 255, 255, 0.3)
-      opacity: 100%
-    tap_action:
-      action: more-info
-    double_tap_action:
-      action: none
-    hold_action:
-      action: more-info
-  - type: state-icon
-    entity: binary_sensor.masters_door_contact
+    entity: switch.outside_hallway_1
     title: null
     style:
       top: 42.56%
-      left: 58.54%
+      left: 73.05%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: toggle
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: light.guard_house_light
+    title: null
+    style:
+      top: 86.63%
+      left: 88.37%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: toggle
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: light.near_pool
+    title: null
+    style:
+      top: 71.09%
+      left: 28.29%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: toggle
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: light.wall_lamp_garden
+    title: null
+    style:
+      top: 50.57%
+      left: 85.12%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: toggle
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: light.perimeter
+    title: null
+    style:
+      top: 93.59%
+      left: 48.85%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: toggle
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: light.mango
+    title: null
+    style:
+      top: 81.40%
+      left: 17.91%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: toggle
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: switch.1f_hallway_outlet_l1
+    title: null
+    style:
+      top: 42.28%
+      left: 47.91%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: toggle
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: binary_sensor.side_door_contact
+    title: null
+    style:
+      top: 44.09%
+      left: 66.50%
       border-radius: 50%
       text-align: center
       background-color: rgba(255, 255, 255, 0.3)
@@ -400,11 +314,11 @@ elements:
     hold_action:
       action: more-info
   - type: state-icon
-    entity: binary_sensor.master_s_office_bottom_windows
+    entity: binary_sensor.dining_door_contact
     title: null
     style:
-      top: 80.33%
-      left: 41.42%
+      top: 41.28%
+      left: 36.26%
       border-radius: 50%
       text-align: center
       background-color: rgba(255, 255, 255, 0.3)
@@ -416,11 +330,11 @@ elements:
     hold_action:
       action: more-info
   - type: state-icon
-    entity: binary_sensor.master_s_office_left_windows
+    entity: binary_sensor.dining_outdoor_glass_2_contact
     title: null
     style:
-      top: 73.33%
-      left: 37.73%
+      top: 24.89%
+      left: 39.86%
       border-radius: 50%
       text-align: center
       background-color: rgba(255, 255, 255, 0.3)
@@ -432,11 +346,11 @@ elements:
     hold_action:
       action: more-info
   - type: state-icon
-    entity: binary_sensor.marty_glass_door_contact
+    entity: binary_sensor.dining_outdoor_glass_1_contact
     title: null
     style:
-      top: 37.48%
-      left: 48.46%
+      top: 24.88%
+      left: 34.22%
       border-radius: 50%
       text-align: center
       background-color: rgba(255, 255, 255, 0.3)
@@ -448,11 +362,11 @@ elements:
     hold_action:
       action: more-info
   - type: state-icon
-    entity: binary_sensor.master_s_bedroom_window
+    entity: binary_sensor.living_1_2_door_contact
     title: null
     style:
-      top: 70.33%
-      left: 59.38%
+      top: 56.24%
+      left: 48.27%
       border-radius: 50%
       text-align: center
       background-color: rgba(255, 255, 255, 0.3)
@@ -464,11 +378,11 @@ elements:
     hold_action:
       action: more-info
   - type: state-icon
-    entity: binary_sensor.mique_window_contact
+    entity: binary_sensor.service_door_contact
     title: null
     style:
-      top: 24.67%
-      left: 76.98%
+      top: 34.63%
+      left: 59.62%
       border-radius: 50%
       text-align: center
       background-color: rgba(255, 255, 255, 0.3)
@@ -480,11 +394,11 @@ elements:
     hold_action:
       action: more-info
   - type: state-icon
-    entity: binary_sensor.2f_hallway_door_contact
+    entity: binary_sensor.living_2_glass_door_1_contact
     title: null
     style:
-      top: 20.60%
-      left: 59.01%
+      top: 71.19%
+      left: 38.57%
       border-radius: 50%
       text-align: center
       background-color: rgba(255, 255, 255, 0.3)
@@ -496,11 +410,11 @@ elements:
     hold_action:
       action: more-info
   - type: state-icon
-    entity: binary_sensor.2f_hallway_windows
+    entity: binary_sensor.living_2_glass_door_2_contact
     title: null
     style:
-      top: 20.76%
-      left: 55.52%
+      top: 56.32%
+      left: 39.11%
       border-radius: 50%
       text-align: center
       background-color: rgba(255, 255, 255, 0.3)
@@ -512,11 +426,11 @@ elements:
     hold_action:
       action: more-info
   - type: state-icon
-    entity: binary_sensor.masters_office_storage_room_contact
+    entity: binary_sensor.gym_door_2_contact
     title: null
     style:
-      top: 77.55%
-      left: 44.97%
+      top: 24.89%
+      left: 67.16%
       border-radius: 50%
       text-align: center
       background-color: rgba(255, 255, 255, 0.3)
@@ -528,11 +442,267 @@ elements:
     hold_action:
       action: more-info
   - type: state-icon
-    entity: binary_sensor.masters_wic_contact
+    entity: binary_sensor.living_2_window_bottom
     title: null
     style:
-      top: 59.45%
-      left: 59.03%
+      top: 82.36%
+      left: 42.75%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: more-info
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: binary_sensor.kitchen_window_contact
+    title: null
+    style:
+      top: 24.88%
+      left: 52.12%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: more-info
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: binary_sensor.kitchen_contact
+    title: null
+    style:
+      top: 39.87%
+      left: 42.68%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: more-info
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: binary_sensor.lanai_door_contact
+    title: null
+    style:
+      top: 47.02%
+      left: 28.26%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: more-info
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: binary_sensor.0xa4c138ab75717339_contact
+    title: null
+    style:
+      top: 25.11%
+      left: 56.49%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: more-info
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: binary_sensor.gym_door_1_contact
+    title: null
+    style:
+      top: 39.45%
+      left: 75.22%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: more-info
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: binary_sensor.living_2_door_1_contact
+    title: null
+    style:
+      top: 47.12%
+      left: 43.89%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: more-info
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: binary_sensor.living_1_door_2_contact
+    title: null
+    style:
+      top: 57.02%
+      left: 58.40%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: more-info
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: binary_sensor.guest_door_contact
+    title: null
+    style:
+      top: 57.37%
+      left: 73.44%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: more-info
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: binary_sensor.living_1_2_door_2_contact
+    title: null
+    style:
+      top: 73.39%
+      left: 48.18%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: more-info
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: binary_sensor.main_door_entrance_contact
+    title: null
+    style:
+      top: 65.16%
+      left: 70.41%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: more-info
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: binary_sensor.living_1_window_bottom
+    title: null
+    style:
+      top: 82.35%
+      left: 53.92%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: more-info
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: binary_sensor.server_door_contact
+    title: null
+    style:
+      top: 30.48%
+      left: 58.29%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: more-info
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: binary_sensor.living_1_door_1_contact
+    title: null
+    style:
+      top: 47.09%
+      left: 53.14%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: more-info
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: binary_sensor.lanai_contact
+    title: null
+    style:
+      top: 45.33%
+      left: 31.55%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: more-info
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: binary_sensor.hallway_door_pool_contact
+    title: null
+    style:
+      top: 47.05%
+      left: 34.85%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: more-info
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: binary_sensor.living_1_window_right
+    title: null
+    style:
+      top: 73.27%
+      left: 58.97%
       border-radius: 50%
       text-align: center
       background-color: rgba(255, 255, 255, 0.3)
